@@ -1,0 +1,16 @@
+.navbar {
+    height: 100px;
+    background-color: white;
+}
+
+.navbar-nav li {
+    padding-left: 30px;
+}
+
+.nav-link {
+    font-size: 1.2em !important;
+}
+
+.container {
+    background-color: white;
+}
