@@ -3,15 +3,16 @@ import Container from 'react-bootstrap/Container';
 import './Header.css';
 
 const header = (props) => {
+    let urlLogo = 'https://drfuri.com/intro/unero/images/logo.png';
     return (
         <Container class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">Logo</a>
+                <a class="navbar-brand"><img src={urlLogo} alt="" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="#">TRANG CHỦ</a>

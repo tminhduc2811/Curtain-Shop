@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/nav/Header';
 
 import Carousel from 'react-bootstrap/Carousel';
+import Wrapper from './components/wrapper/Wrapper';
 function App() {
   return (
     <React.Fragment>
@@ -45,6 +46,7 @@ function App() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <Wrapper></Wrapper>
     </React.Fragment>
   );
 }
